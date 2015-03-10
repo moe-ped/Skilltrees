@@ -7,4 +7,6 @@ public interface IMessageTarget : IEventSystemHandler
 {
 	// functions that can be called via the messaging system
 	void OnOpenSkilltrees();
+	void OnShowTooltip();
+	void OnHideTooltip();
 }

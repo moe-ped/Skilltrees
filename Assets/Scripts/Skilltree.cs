@@ -3,17 +3,23 @@ using System.Collections;
 
 public class Skilltree 
 {
-	protected Spell[] spells;
-
-	protected Sprite[] icons;
+	protected Spell[] _spells;
 
 	public virtual void Initialize()
 	{
-
+	
 	}
 
 	public virtual void Update()
 	{
 
+	}
+
+	public Spell[] spells
+	{
+		get 
+		{
+			return _spells;
+		}
 	}
 }
